@@ -1,0 +1,23 @@
+[
+  {
+    "nombre": "Luna",
+    "apellido": "Del Giorgio",
+    "fechaDNacimiento": "17/05/2000",
+    "dni": 42630927,
+    "direccion": "Gral Paz 237",
+    "celular": "2281304236",
+    "matricula": "be9d79",
+    "materias": [],
+    "nota": {}
+  },
+  {
+    "nombre": "maria",
+    "apellido": "perez",
+    "fechaDNacimiento": "13/02/1970",
+    "dni": 16164241,
+    "direccion": "gral paz 237",
+    "celular": "2281578948",
+    "contrato": true,
+    "asignatura": "sociales"
+  }
+]

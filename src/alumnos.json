@@ -1,0 +1,13 @@
+[
+ {
+  "nombre": "Luna",
+  "apellido": "Del Giorgio",
+  "fechaDNacimiento": "17/05/2000",
+  "dni": 42630927,
+  "direccion": "Gral Paz 237",
+  "celular": "2281304236",
+  "matricula": "be9d79",
+  "materias": [],
+  "nota": {}
+ }
+]

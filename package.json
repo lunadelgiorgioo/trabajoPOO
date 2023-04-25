@@ -1,0 +1,19 @@
+{
+  "name": "trabajopoo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.16.0",
+    "readline-sync": "^1.4.10",
+    "ts-node": "^10.9.1",
+    "uuid": "^9.0.0"
+  }
+}

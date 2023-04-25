@@ -1,0 +1,21 @@
+import Curso from "./curso";
+import Alumno from "./alumno";
+import Profesor from "./profesor";
+import Materia from "./materia";
+let luna = new Alumno('luna', 'del giorgio', '17/05/2000', 42630927, '2281304236', 'Gral Paz 237');
+let Sara = new Alumno('Sara', 'Aguilar', '07/01/1990', 35665444, '2281329493', 'Uruguay 123');
+let martin = new Profesor('Martin', 'Lopez', '12/04/1995', 34333344, '2281523332', 'Otamendi 132');
+let sociales = new Materia('Sociales', martin);
+let javier = new Profesor('Javier', 'Dannunzio', '20/10/1993', 20938444, '2281563372', 'Alberdi 49');
+let matematicas = new Materia('Matematicas', javier);
+let PrimeroA = new Curso('Primero A');
+PrimeroA.materias.push(matematicas);
+PrimeroA.alumnos.push(luna);
+PrimeroA.materias.push(sociales);
+PrimeroA.profesores.push(martin);
+PrimeroA.alumnos.push(Sara);
+PrimeroA.profesores.push(javier);
+luna.actualizarNota(matematicas, 5);
+console.log(PrimeroA.profesores);
+console.log(PrimeroA);
+
