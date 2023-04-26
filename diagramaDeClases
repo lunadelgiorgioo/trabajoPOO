@@ -1,0 +1,62 @@
++--------------------------------------+
+|               Persona                |
++--------------------------------------+
+| - nombre: string                     |
+| - apellido: string                   |
+| - dni: string                         |
++--------------------------------------+
+| + constructor(nombre: string,        |
+|   apellido: string, dni: string)     |
+| + getNombre(): string                |
+| + getApellido(): string              |
+| + getDNI(): string                   |
+| + setNombre(nombre: string): void    |
+| + setApellido(apellido: string): void|
+| + setDNI(dni: string): void          |
++--------------------------------------+
+                /\
+                |
+                |
++--------------------------------------+
+|              Alumnos                 |
++--------------------------------------+
+| - legajo: string                      |
++--------------------------------------+
+| + constructor(nombre: string,        |
+|   apellido: string, dni: string,     |
+|   legajo: string)                    |
+| + getLegajo(): string                |
+| + setLegajo(legajo: string): void     |
++--------------------------------------+
+         /                \
+        /                  \
++---------------+    +---------------+
+|     Curso     |    |     Materia   |
++---------------+    +---------------+
+| - nombre: string|  | - nombre: string|
+| - alumnos: Alumnos[]| | - profesor: Profesor |
++---------------+    +---------------+
+| + constructor(nombre: string)       | | + constructor(nombre: string, profesor: Profesor) |
+| + getNombre(): string               | | + getNombre(): string |
+| + getAlumnos(): Alumnos[]           | | + getProfesor(): Profesor |
+| + agregarAlumno(alumno: Alumnos): void | | + setProfesor(profesor: Profesor): void |
+| + quitarAlumno(alumno: Alumnos): void| |
++---------------+    +---------------+
+                 \              /
+                  \            /
+                   \          /
+                +-------------------+
+                |      Profesor     |
+                +-------------------+
+                | - nombre: string  |
+                | - apellido: string|
+                | - dni: string     |
+                +-------------------+
+                | + constructor(nombre: string, apellido: string, dni: string) |
+                | + getNombre(): string |
+                | + getApellido(): string |
+                | + getDNI(): string |
+                | + setNombre(nombre: string): void |
+                | + setApellido(apellido: string): void |
+                | + setDNI(dni: string): void |
+                +-------------------+
